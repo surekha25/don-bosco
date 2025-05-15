@@ -156,7 +156,7 @@
         opacity: 0;
     }
     .nav-item .dropdown-menu.menu1{
-        left: -160px;
+        left: -160.8px;
         border-right: 1px solid #e5683a;
         min-width:215px;
     }
@@ -165,7 +165,7 @@
         min-width:215px;
     }
     .nav-item .dropdown-menu.menu3{
-        left: 270.5px;
+        left: 269px;
         border-right: 1px solid #e5683a;
         min-width:215px;
     }
@@ -684,6 +684,44 @@
     transform: scale(1.2);
 }
 /*** Volunteer End ***/
+
+/*** Top Stories Start ***/
+.stories{
+    margin-bottom:15px;
+}
+.stories .story-img {
+    position: relative;
+    overflow: hidden;
+    height:100px;
+}
+
+.stories .story-img .story-title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+    transition: 0.5s;
+}
+
+.stories .story-img:hover .story-title {
+    background: rgba(0, 0, 0, .5);
+}
+
+.stories .story-img img {
+    transition: 0.5s;
+}
+
+.stories .story-img:hover img {
+    transform: scale(1.2);
+}
+/*** Top Stories End ***/
 
 
 /*** Contact Start ***/
