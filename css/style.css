@@ -746,7 +746,7 @@
 .footer .footer-item a,
 .footer .footer-item p {
     line-height: 35px;
-    color: var(--bs-body);
+    color: #222;
     transition: 0.5s;
 }
 
@@ -790,6 +790,12 @@
 /*** copyright Start ***/
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    background: var(--bs-dark) !important;
+    background: var(--bs-secondary) !important;
+}
+.copyright a{
+    color: var(--bs-primary);
+}
+.socialIcons .btn-hover-color:hover{
+    color: #e3001a !important;
 }
 /*** copyright end ***/
